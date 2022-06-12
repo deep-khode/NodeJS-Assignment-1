@@ -95,7 +95,7 @@ let userData = [
               }
           })
         }else if(req.url=='/video'){
-            fs.readFile('./earth.mp4',(err,data1)=>{
+            fs.readFile('./sample-mp4-file.mp4',(err,data1)=>{
                 if(err){
                     res.writeHead(404);
                     res.write('No video');
